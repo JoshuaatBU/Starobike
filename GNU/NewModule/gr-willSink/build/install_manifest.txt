@@ -1,0 +1,9 @@
+/usr/local/lib/cmake/willSink/willSinkConfig.cmake
+/usr/local/include/willSink/api.h
+/usr/local/lib/python3/dist-packages/willSink/__init__.py
+/usr/local/lib/python3/dist-packages/willSink/willSink.py
+/usr/local/lib/python3/dist-packages/willSink/__init__.pyc
+/usr/local/lib/python3/dist-packages/willSink/willSink.pyc
+/usr/local/lib/python3/dist-packages/willSink/__init__.pyo
+/usr/local/lib/python3/dist-packages/willSink/willSink.pyo
+/usr/local/share/gnuradio/grc/blocks/willSink_willSink.block.yml

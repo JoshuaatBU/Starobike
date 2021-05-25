@@ -1,0 +1,22 @@
+Start testing: Apr 10 16:44 EDT
+----------------------------------------------------------
+1/1 Testing: qa_seniorsink
+1/1 Test: qa_seniorsink
+Command: "/bin/sh" "/home/josh/Documents/SD/21-29-Starobike/GNU/NewModule/gr-graphicsink/build/python/qa_seniorsink_test.sh"
+Directory: /home/josh/Documents/SD/21-29-Starobike/GNU/NewModule/gr-graphicsink/build/python
+"qa_seniorsink" start time: Apr 10 16:44 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/josh/Documents/SD/21-29-Starobike/GNU/NewModule/gr-graphicsink/python/qa_seniorsink.py", line 24, in <module>
+    import graphicsink_swig as graphicsink
+ModuleNotFoundError: No module named 'graphicsink_swig'
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Failed.
+"qa_seniorsink" end time: Apr 10 16:44 EDT
+"qa_seniorsink" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 10 16:44 EDT

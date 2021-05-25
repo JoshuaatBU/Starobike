@@ -1,0 +1,31 @@
+INCLUDE(FindPkgConfig)
+PKG_CHECK_MODULES(PC_SERIALSOURCE SerialSource)
+
+FIND_PATH(
+    SERIALSOURCE_INCLUDE_DIRS
+    NAMES SerialSource/api.h
+    HINTS $ENV{SERIALSOURCE_DIR}/include
+        ${PC_SERIALSOURCE_INCLUDEDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/include
+          /usr/local/include
+          /usr/include
+)
+
+FIND_LIBRARY(
+    SERIALSOURCE_LIBRARIES
+    NAMES gnuradio-SerialSource
+    HINTS $ENV{SERIALSOURCE_DIR}/lib
+        ${PC_SERIALSOURCE_LIBDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/lib
+          ${CMAKE_INSTALL_PREFIX}/lib64
+          /usr/local/lib
+          /usr/local/lib64
+          /usr/lib
+          /usr/lib64
+          )
+
+include("${CMAKE_CURRENT_LIST_DIR}/SerialSourceTarget.cmake")
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(SERIALSOURCE DEFAULT_MSG SERIALSOURCE_LIBRARIES SERIALSOURCE_INCLUDE_DIRS)
+MARK_AS_ADVANCED(SERIALSOURCE_LIBRARIES SERIALSOURCE_INCLUDE_DIRS)

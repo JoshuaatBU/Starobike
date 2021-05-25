@@ -1,0 +1,9 @@
+/usr/local/lib/cmake/seniordesign/seniordesignConfig.cmake
+/usr/local/include/seniordesign/api.h
+/usr/local/lib/python3/dist-packages/seniordesign/__init__.py
+/usr/local/lib/python3/dist-packages/seniordesign/serialsource_b.py
+/usr/local/lib/python3/dist-packages/seniordesign/__init__.pyc
+/usr/local/lib/python3/dist-packages/seniordesign/serialsource_b.pyc
+/usr/local/lib/python3/dist-packages/seniordesign/__init__.pyo
+/usr/local/lib/python3/dist-packages/seniordesign/serialsource_b.pyo
+/usr/local/share/gnuradio/grc/blocks/seniordesign_serialsource_b.block.yml

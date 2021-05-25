@@ -1,0 +1,13 @@
+/usr/local/lib/cmake/SerialSource/SerialSourceConfig.cmake
+/usr/local/include/SerialSource/api.h
+/usr/local/lib/python3/dist-packages/SerialSource/__init__.py
+/usr/local/lib/python3/dist-packages/SerialSource/SerialSource_byte.py
+/usr/local/lib/python3/dist-packages/SerialSource/SerialSource_b.py
+/usr/local/lib/python3/dist-packages/SerialSource/__init__.pyc
+/usr/local/lib/python3/dist-packages/SerialSource/SerialSource_byte.pyc
+/usr/local/lib/python3/dist-packages/SerialSource/SerialSource_b.pyc
+/usr/local/lib/python3/dist-packages/SerialSource/__init__.pyo
+/usr/local/lib/python3/dist-packages/SerialSource/SerialSource_byte.pyo
+/usr/local/lib/python3/dist-packages/SerialSource/SerialSource_b.pyo
+/usr/local/share/gnuradio/grc/blocks/SerialSource_SerialSource_byte.block.yml
+/usr/local/share/gnuradio/grc/blocks/SerialSource_SerialSource_b.block.yml

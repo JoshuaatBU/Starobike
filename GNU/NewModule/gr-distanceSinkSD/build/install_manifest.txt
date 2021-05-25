@@ -1,0 +1,12 @@
+/usr/local/lib/cmake/distanceSinkSD/distanceSinkSDConfig.cmake
+/usr/local/include/distanceSinkSD/api.h
+/usr/local/lib/python3/dist-packages/distanceSinkSD/__init__.py
+/usr/local/lib/python3/dist-packages/distanceSinkSD/Template.py
+/usr/local/lib/python3/dist-packages/distanceSinkSD/distanceCalc.py
+/usr/local/lib/python3/dist-packages/distanceSinkSD/__init__.pyc
+/usr/local/lib/python3/dist-packages/distanceSinkSD/Template.pyc
+/usr/local/lib/python3/dist-packages/distanceSinkSD/distanceCalc.pyc
+/usr/local/lib/python3/dist-packages/distanceSinkSD/__init__.pyo
+/usr/local/lib/python3/dist-packages/distanceSinkSD/Template.pyo
+/usr/local/lib/python3/dist-packages/distanceSinkSD/distanceCalc.pyo
+/usr/local/share/gnuradio/grc/blocks/distanceSinkSD_distanceCalc.block.yml

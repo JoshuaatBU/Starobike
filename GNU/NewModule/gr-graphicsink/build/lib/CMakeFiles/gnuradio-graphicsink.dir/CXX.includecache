@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/graphicsink/api.h
+gnuradio/attributes.h
+-
+
+../include/graphicsink/seniorsink.h
+graphicsink/api.h
+-
+gnuradio/sync_block.h
+-
+gnuradio/qtgui/api.h
+-
+gnuradio/sync_block.h
+-
+
+/home/josh/Documents/SD/21-29-Starobike/GNU/NewModule/gr-graphicsink/lib/seniorsink_impl.cc
+config.h
+/home/josh/Documents/SD/21-29-Starobike/GNU/NewModule/gr-graphicsink/lib/config.h
+gnuradio/io_signature.h
+-
+seniorsink_impl.h
+/home/josh/Documents/SD/21-29-Starobike/GNU/NewModule/gr-graphicsink/lib/seniorsink_impl.h
+gnuradio/prefs.h
+-
+volk/volk.h
+-
+cstring
+-
+
+/home/josh/Documents/SD/21-29-Starobike/GNU/NewModule/gr-graphicsink/lib/seniorsink_impl.h
+graphicsink/seniorsink.h
+-
+gnuradio/high_res_timer.h
+-
+
